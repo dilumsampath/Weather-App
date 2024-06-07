@@ -47,6 +47,9 @@ body {
 .search button img {
   width: 16px;
 }
+.weather {
+  display: none;
+}
 .weather-icon {
   width: 170px;
   margin-top: 30px;
@@ -82,7 +85,10 @@ body {
   margin-top: -6px;
 }
 
-/* .col p {
+.error {
+  text-align: left;
+  margin-top: 10px;
   font-size: 14px;
-  margin-left: 10px;
-} */
+  /* opacity: 0.8; */
+  display: none;
+}
